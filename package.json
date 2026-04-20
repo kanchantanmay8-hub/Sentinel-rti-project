@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "sentinel-rti",
   "private": true,
   "version": "1.0.0",
@@ -16,5 +17,18 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
     "vite": "^5.0.0"
+=======
+  "name": "sentinel-rti-unified",
+  "version": "1.0.0",
+  "description": "Sentinel-RTI — Full Stack MERN Application",
+  "scripts": {
+    "dev": "concurrently --names \"BACKEND,FRONTEND\" --prefix-colors \"cyan,magenta\" \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+>>>>>>> 91fd534 (Initial commit on feature branch)
   }
 }
